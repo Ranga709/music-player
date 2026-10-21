@@ -11,7 +11,7 @@ const App = () => {
   const [duration, setDuration] = useState(0);
   const audioRef = useRef(new Audio());
 
-  const API_URL = 'https://music-player-4gsz.onrender.com/';
+const API_URL = 'https://music-player-4gsz.onrender.com/extract';
 
   const handleFetchMusic = async () => {
     if (!urlInput) return;
